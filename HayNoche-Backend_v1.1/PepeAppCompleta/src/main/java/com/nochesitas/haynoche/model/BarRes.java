@@ -2,6 +2,8 @@ package com.nochesitas.haynoche.model;
 
 import com.nochesitas.haynoche.modelDetails.Day;
 import com.nochesitas.haynoche.modelDetails.Location;
+import com.nochesitas.haynoche.modelDetails.SiSoy;
+import com.nochesitas.haynoche.modelDetails.Typesito;
 import jakarta.persistence.*;
 
 import java.io.Serializable;
@@ -34,6 +36,9 @@ public class BarRes implements Serializable {
     //Direccion del Bar/Restoran de tipo String
     private String barResAdress;
 
+    @Column(length = 200)
+    private String barResDesc;
+
     //Indica si el Bar/Restoran es apto para come plantas
     private Boolean barResVegan;
 
@@ -49,6 +54,9 @@ public class BarRes implements Serializable {
     //Hora a la que cierra el Bar/Restoran
     private LocalTime barResCloses;
 
+
+    private Integer barResMoney;
+
     /*
     @Enumerated es para saber que es un tipo de dato
     enumerado y con EnumType.ORDINAL le decimos que
@@ -61,7 +69,10 @@ public class BarRes implements Serializable {
     @Enumerated(EnumType.ORDINAL)
     @Column(nullable = false)
     private Location barResLocation;
-
+    @Enumerated(EnumType.ORDINAL)
+    private Typesito barResType;
+    @Enumerated(EnumType.ORDINAL)
+    private SiSoy barResEs;
 
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "barRes")
     List<Promocion> promocion;
@@ -162,30 +173,76 @@ public class BarRes implements Serializable {
     public void setBarResLocation(Location barResLocation) {
         this.barResLocation = barResLocation;
     }
+    public String getBarResType() {
+        return barResType.getTypeText();
+    }
 
+    public void setBarResType(Typesito barResType) {
+        this.barResType = barResType;
+    }
 
+    public String getBarResDesc() {
+        return barResDesc;
+    }
+
+    public void setBarResDesc(String barResDesc) {
+        this.barResDesc = barResDesc;
+    }
+
+    public String getBarResEs() {
+        return barResEs.getSiSoyText();
+    }
+
+    public void setBarResEs(SiSoy barResEs) {
+        this.barResEs = barResEs;
+    }
+
+    public Integer getBarResMoney() {
+        return barResMoney;
+    }
+
+    public void setBarResMoney(Integer barResMoney) {
+        this.barResMoney = barResMoney;
+    }
 
     /*
-    Este metodo lo que hace es convertir el string de "getBarResLocation"
-    a tipo Location para que a la hora de editar sepa a que locacion esta
-    haciendo referencia
-     */
+            Este metodo lo que hace es convertir el string de "getBarResLocation"
+            a tipo Location para que a la hora de editar sepa a que locacion esta
+            haciendo referencia
+             */
     public Location getLocationByName(String name) {
         for (Location location : Location.values()) {
-            if (location.getLocationText() == name ) {
+            if (location.getLocationText().equals(name)) {
                 return location;
             }
         }
         return null;
     }
 
-
     public Day getDayByName(String name) {
         for (Day day :Day.values()) {
-            if (day.getDayText() == name ) {
+            if (day.getDayText().equals(name)) {
                 return day;
             }
         }
         return null;
     }
+    public Typesito getTypeByName(String name) {
+        for (Typesito typesito : Typesito.values()) {
+            if (typesito.getTypeText().equals(name)) {
+                return typesito;
+            }
+        }
+        return null;
+    }
+
+    public SiSoy getEsByName(String name) {
+        for (SiSoy siSoy : SiSoy.values()) {
+            if (siSoy.getSiSoyText().equals(name)) {
+                return siSoy;
+            }
+        }
+        return null;
+    }
+
 }
