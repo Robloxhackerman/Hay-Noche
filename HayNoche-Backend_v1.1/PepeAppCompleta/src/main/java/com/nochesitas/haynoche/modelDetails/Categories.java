@@ -1,6 +1,6 @@
 package com.nochesitas.haynoche.modelDetails;
 
-public enum Typesito {
+public enum Categories {
         CERVECERIA (0, "Cerveceria"),
         FAMILIAR (0, "Familiar"),
         GOURMET (0, "Cerveceria"),
@@ -19,7 +19,7 @@ public enum Typesito {
     private Integer typePosition;
     private String typeText;
 
-    Typesito(Integer typePosition, String typeText) {
+    Categories(Integer typePosition, String typeText) {
         this.typePosition = typePosition;
         this.typeText = typeText;
     }

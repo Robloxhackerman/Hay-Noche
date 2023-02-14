@@ -2,8 +2,8 @@ package com.nochesitas.haynoche.model;
 
 import com.nochesitas.haynoche.modelDetails.Day;
 import com.nochesitas.haynoche.modelDetails.Location;
-import com.nochesitas.haynoche.modelDetails.SiSoy;
-import com.nochesitas.haynoche.modelDetails.Typesito;
+import com.nochesitas.haynoche.modelDetails.Es;
+import com.nochesitas.haynoche.modelDetails.Categories;
 import jakarta.persistence.*;
 
 import java.io.Serializable;
@@ -70,9 +70,9 @@ public class BarRes implements Serializable {
     @Column(nullable = false)
     private Location barResLocation;
     @Enumerated(EnumType.ORDINAL)
-    private Typesito barResType;
+    private Categories barResType;
     @Enumerated(EnumType.ORDINAL)
-    private SiSoy barResEs;
+    private Es barResEs;
 
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "barRes")
     List<Promocion> promocion;
@@ -177,7 +177,7 @@ public class BarRes implements Serializable {
         return barResType.getTypeText();
     }
 
-    public void setBarResType(Typesito barResType) {
+    public void setBarResType(Categories barResType) {
         this.barResType = barResType;
     }
 
@@ -193,7 +193,7 @@ public class BarRes implements Serializable {
         return barResEs.getSiSoyText();
     }
 
-    public void setBarResEs(SiSoy barResEs) {
+    public void setBarResEs(Es barResEs) {
         this.barResEs = barResEs;
     }
 
@@ -227,19 +227,19 @@ public class BarRes implements Serializable {
         }
         return null;
     }
-    public Typesito getTypeByName(String name) {
-        for (Typesito typesito : Typesito.values()) {
-            if (typesito.getTypeText().equals(name)) {
-                return typesito;
+    public Categories getTypeByName(String name) {
+        for (Categories categories : Categories.values()) {
+            if (categories.getTypeText().equals(name)) {
+                return categories;
             }
         }
         return null;
     }
 
-    public SiSoy getEsByName(String name) {
-        for (SiSoy siSoy : SiSoy.values()) {
-            if (siSoy.getSiSoyText().equals(name)) {
-                return siSoy;
+    public Es getEsByName(String name) {
+        for (Es es : Es.values()) {
+            if (es.getSiSoyText().equals(name)) {
+                return es;
             }
         }
         return null;

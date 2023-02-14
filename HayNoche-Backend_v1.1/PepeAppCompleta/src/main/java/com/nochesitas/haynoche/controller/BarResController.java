@@ -100,7 +100,7 @@ public class BarResController {
         barRes.get().setBarResType(barResDetails.getTypeByName(barResDetails.getBarResType()));
         barRes.get().setBarResMoney(barResDetails.getBarResMoney());
         barRes.get().setBarResDesc(barResDetails.getBarResDesc());
-        
+
         return ResponseEntity.status(HttpStatus.CREATED).body(barResService.save(barRes.get()));
     }
 
