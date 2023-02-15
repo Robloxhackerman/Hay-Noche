@@ -1,6 +1,7 @@
 import React from 'react';
 import { styled } from '@mui/material/styles';
 import MenuIcon from './MenuIcon';
+import Logo from '../assets/images/Logo.png';
 
 const Heading1 = styled('div')({
   backgroundColor: `rgba(13, 12, 19, 0.8)`,
@@ -63,7 +64,7 @@ function Heading2(props) {
       </PageItems>
       <MenuIcon1 />
       <Title>
-        <LogoImage src="assets/images/logo.png" />
+        <LogoImage src={Logo} />
       </Title>
     </Heading1>
   );
