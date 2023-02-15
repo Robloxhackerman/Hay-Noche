@@ -8,6 +8,7 @@ import RightArrow from './RightArrow';
 import { Link } from 'react-router-dom';
 import './Index.css';
 
+
 const Index1 = styled('div')(({ theme }) => ({
   backgroundColor: `rgba(255, 255, 255, 1)`,
   display: `flex`,

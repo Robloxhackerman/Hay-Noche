@@ -1,19 +1,20 @@
-import React from "react";
-import "./VerticalButtonScroll.css";
+import React from 'react';
+import './VerticalButtonScroll.css';
 import { Link } from 'react-router-dom';
 
 const VerticalButtonScroll = ({ buttons, img }) => {
   return (
-    <div className="scroll-container" style={{ height: "100%" }}>
+    <div className='scroll-container' style={{ height: '100%' }}>
       {buttons.map((button, index) => (
-       <Link to={button.page}> <img
+        <Link to={button.page}> <img
           src={button.src}
           alt={button.alt}
           {...img}
           key={index}
-          className="scroll-button"
+          className='scroll-button'
           onClick={() => console.log(button.alt)}
-        /> </Link>
+                                />
+        </Link>
       ))}
     </div>
   );

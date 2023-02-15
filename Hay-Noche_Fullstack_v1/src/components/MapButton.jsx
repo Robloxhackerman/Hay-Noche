@@ -1,15 +1,16 @@
 import React from 'react';
 
-function MapButton({ address }) {
+function MapButton ({ address }) {
   const handleClick = () => {
     window.open(`https://www.google.com/maps/search/?api=1&query=${address}`);
   };
 
   return (
-   <img 
-   src={'/assets/images/VerEnMapa.png'} 
-   alt="Button" 
-   onClick={handleClick} />
+    <img
+      src='/assets/images/VerEnMapa.png'
+      alt='Button'
+      onClick={handleClick}
+    />
   );
 }
 

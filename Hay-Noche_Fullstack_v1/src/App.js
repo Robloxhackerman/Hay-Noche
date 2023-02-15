@@ -19,30 +19,29 @@ const theme = createTheme({
       sm: 600,
       md: 960,
       lg: 1280,
-      xl: 1920,
-    },
-  },
+      xl: 1920
+    }
+  }
 });
 
-
-function App() {
+function App () {
   return (
     <ThemeProvider theme={theme}>
-    <BrowserRouter>
-      <Routes>
-        <Route exact path="/" element={<Index />} />
-        <Route path="/Categories" element={<Categories />} />
-        <Route path="/Restaurantes" element={<Restaurantes />} />
-        <Route path="/Bares" element={<Bares />} />
-        <Route path="/Teatro" element={<Teatro />} />
-        <Route path="/Musica" element={<Musica />} />
-        <Route path="/Eventos" element={<Eventos />} />
-        <Route path="/Todo" element={<Todo />} />
-        <Route path="/Promos" element={<Promos />} />
-        <Route path="/BusinessPage" element={<BusinessPage />} />
-        <Route path="/business/:id" component={BusinessPage} />
-      </Routes>
-    </BrowserRouter>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Index />} />
+          <Route path='Categories' element={<Categories />} />
+          <Route path='/Restaurantes' element={<Restaurantes />} />
+          <Route path='/Bares' element={<Bares />} />
+          <Route path='/Teatro' element={<Teatro />} />
+          <Route path='/Musica' element={<Musica />} />
+          <Route path='/Eventos' element={<Eventos />} />
+          <Route path='/Todo' element={<Todo />} />
+          <Route path='/Promos' element={<Promos />} />
+          <Route path='/BusinessPage' element={<BusinessPage />} />
+          <Route path='/business/:id' component={BusinessPage} />
+        </Routes>
+      </BrowserRouter>
     </ThemeProvider>
   );
 }
