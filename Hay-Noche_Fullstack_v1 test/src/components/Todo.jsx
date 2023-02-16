@@ -12,7 +12,7 @@ const Rectangle1 = styled('div')({
   top: '0px'
 });
 
-function Restaurantes (props) {
+function Todo (props) {
   return (
     <div>
       <Helmet>
@@ -25,4 +25,4 @@ function Restaurantes (props) {
   );
 }
 
-export default Restaurantes;
+export default Todo;

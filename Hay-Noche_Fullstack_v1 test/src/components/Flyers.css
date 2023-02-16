@@ -1,0 +1,12 @@
+.flyers {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: scroll;
+  }
+  
+  .flyers img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }

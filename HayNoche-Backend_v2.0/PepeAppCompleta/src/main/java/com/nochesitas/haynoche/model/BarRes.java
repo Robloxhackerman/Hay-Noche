@@ -37,6 +37,7 @@ public class BarRes implements Serializable {
     private String barResAdress;
 
     //Indica si el Bar/Restoran es apto para come plantas
+    private String barResFotoId;
     private Boolean barResVegan;
 
     //Indica si el Bar/Restoran es apto para celiacos
@@ -97,6 +98,14 @@ public class BarRes implements Serializable {
 
     public void setBarResAdress(String barResAdress) {
         this.barResAdress = barResAdress;
+    }
+
+    public String getBarResFotoId() {
+        return barResFotoId;
+    }
+
+    public void setBarResFotoId(String barResFotoId) {
+        this.barResFotoId = barResFotoId;
     }
 
     public Boolean getBarResVegan() {

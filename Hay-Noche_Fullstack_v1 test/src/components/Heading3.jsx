@@ -31,7 +31,6 @@ const PageItems = styled('div')({
 
 const Title = styled('div')({
   display: 'flex',
-  position: 'absolute',
   isolation: 'isolate',
   flexDirection: 'row',
   justifyContent: 'flex-start',
@@ -44,8 +43,7 @@ const Title = styled('div')({
 
 const LogoImage = styled('img')({
   width: '100px',
-  height: 'auto',
-  margin: '-20px 0px 100px 10px'
+  height: 'auto'
 });
 
 function Heading3 (props) {

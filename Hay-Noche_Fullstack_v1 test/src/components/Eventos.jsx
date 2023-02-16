@@ -1,7 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { styled } from '@mui/material/styles';
-import Flyers from './Flyers';
 
 const Rectangle1 = styled('div')({
   backgroundColor: 'rgba(13, 12, 19, 0.8)',
@@ -12,17 +11,15 @@ const Rectangle1 = styled('div')({
   top: '0px'
 });
 
-function Restaurantes (props) {
+function Eventos (props) {
   return (
     <div>
       <Helmet>
         <title>Hay Noche</title>
       </Helmet>
-      <Rectangle1>
-        <Flyers />
-      </Rectangle1>
+      <Rectangle1 />
     </div>
   );
 }
 
-export default Restaurantes;
+export default Eventos;
