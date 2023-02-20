@@ -1,0 +1,18 @@
+.logo_png {
+    width: 120px;
+    margin-left: 13px;
+}
+.top_bar {
+    position: fixed;
+    padding-top: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    top: 0; /* nada me mueve */
+    /* position: absolute;  nada me mueve */
+    z-index: 10000; /* traer al frente */
+    height: 60px;
+    background-color: #61dafb;
+    width: 100%;
+}
