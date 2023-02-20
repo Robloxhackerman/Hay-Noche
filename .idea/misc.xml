@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/MVP/HayNoche-Backend_v2.0 [Sweet Berry]/PepeAppCompleta/pom.xml" />
+        <option value="$PROJECT_DIR$/Etapa_Desarrollo/HayNoche-Backend_v1.1/PepeAppCompleta/pom.xml" />
+        <option value="$PROJECT_DIR$/Etapa_Desarrollo/HayNoche-Backend_v1.2/PepeAppCompleta/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="corretto-17" project-jdk-type="JavaSDK" />
+</project>

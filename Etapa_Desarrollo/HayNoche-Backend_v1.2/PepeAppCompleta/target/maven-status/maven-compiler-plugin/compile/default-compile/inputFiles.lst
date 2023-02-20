@@ -1,6 +1,15 @@
-/Users/landau/Documents/070223/Deployment/ PepeAppCompleta/src/main/java/com/nochesitas/haynoche/controller/BarResController.java
-/Users/landau/Documents/070223/Deployment/ PepeAppCompleta/src/main/java/com/nochesitas/haynoche/repository/BarResRepository.java
-/Users/landau/Documents/070223/Deployment/ PepeAppCompleta/src/main/java/com/nochesitas/haynoche/service/BarResServiceImpl.java
-/Users/landau/Documents/070223/Deployment/ PepeAppCompleta/src/main/java/com/nochesitas/haynoche/service/BarResService.java
-/Users/landau/Documents/070223/Deployment/ PepeAppCompleta/src/main/java/com/nochesitas/haynoche/HayNocheApplication.java
-/Users/landau/Documents/070223/Deployment/ PepeAppCompleta/src/main/java/com/nochesitas/haynoche/entity/BarRes.java
+/Users/landau/Documents/Final/Hay-Noche/Etapa_Desarrollo/HayNoche-Backend_v1.2/PepeAppCompleta/src/main/java/com/nochesitas/haynoche/repository/BarResRepository.java
+/Users/landau/Documents/Final/Hay-Noche/Etapa_Desarrollo/HayNoche-Backend_v1.2/PepeAppCompleta/src/main/java/com/nochesitas/haynoche/service/PromocionService.java
+/Users/landau/Documents/Final/Hay-Noche/Etapa_Desarrollo/HayNoche-Backend_v1.2/PepeAppCompleta/src/main/java/com/nochesitas/haynoche/HayNocheApplication.java
+/Users/landau/Documents/Final/Hay-Noche/Etapa_Desarrollo/HayNoche-Backend_v1.2/PepeAppCompleta/src/main/java/com/nochesitas/haynoche/modelDetails/Es.java
+/Users/landau/Documents/Final/Hay-Noche/Etapa_Desarrollo/HayNoche-Backend_v1.2/PepeAppCompleta/src/main/java/com/nochesitas/haynoche/service/BarResService.java
+/Users/landau/Documents/Final/Hay-Noche/Etapa_Desarrollo/HayNoche-Backend_v1.2/PepeAppCompleta/src/main/java/com/nochesitas/haynoche/service/BarResServiceImpl.java
+/Users/landau/Documents/Final/Hay-Noche/Etapa_Desarrollo/HayNoche-Backend_v1.2/PepeAppCompleta/src/main/java/com/nochesitas/haynoche/modelDetails/Location.java
+/Users/landau/Documents/Final/Hay-Noche/Etapa_Desarrollo/HayNoche-Backend_v1.2/PepeAppCompleta/src/main/java/com/nochesitas/haynoche/controller/BarResController.java
+/Users/landau/Documents/Final/Hay-Noche/Etapa_Desarrollo/HayNoche-Backend_v1.2/PepeAppCompleta/src/main/java/com/nochesitas/haynoche/model/BarRes.java
+/Users/landau/Documents/Final/Hay-Noche/Etapa_Desarrollo/HayNoche-Backend_v1.2/PepeAppCompleta/src/main/java/com/nochesitas/haynoche/modelDetails/Day.java
+/Users/landau/Documents/Final/Hay-Noche/Etapa_Desarrollo/HayNoche-Backend_v1.2/PepeAppCompleta/src/main/java/com/nochesitas/haynoche/repository/PromocionRepository.java
+/Users/landau/Documents/Final/Hay-Noche/Etapa_Desarrollo/HayNoche-Backend_v1.2/PepeAppCompleta/src/main/java/com/nochesitas/haynoche/model/Promocion.java
+/Users/landau/Documents/Final/Hay-Noche/Etapa_Desarrollo/HayNoche-Backend_v1.2/PepeAppCompleta/src/main/java/com/nochesitas/haynoche/modelDetails/Categories.java
+/Users/landau/Documents/Final/Hay-Noche/Etapa_Desarrollo/HayNoche-Backend_v1.2/PepeAppCompleta/src/main/java/com/nochesitas/haynoche/service/PromocionServiceImpl.java
+/Users/landau/Documents/Final/Hay-Noche/Etapa_Desarrollo/HayNoche-Backend_v1.2/PepeAppCompleta/src/main/java/com/nochesitas/haynoche/controller/PromocionController.java
