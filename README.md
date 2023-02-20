@@ -1,9 +1,8 @@
 # Hay-Noche
 
-### The ultimate guide to your perfect night out
+### The ultimate guide to your perfect night out ~
 
----
-                            *// under construction site //*
+
 ---
 ## Description
 
@@ -49,9 +48,9 @@ We created this MVP for our final project at Holberton School Uruguay.
 > **Other tools:** wget
 
 
-## File Description *//under construction site//*
+## File Description
 
-- `Etapa Desarrollo:`
+- `Development Phase:`
 > #### Backend
 > - *HayNoche-Backend_v1:* This was our first version with functionalities for "BarRes" & "Promociones" and both being entities and tables are created based on their attributes.
 >
@@ -60,7 +59,7 @@ We created this MVP for our final project at Holberton School Uruguay.
 >
 >
 > - *HayNoche-Backend_v1.2:* Same functionalities, but here we added yet more attributes, relations and handled better the connections between the backend to the local database or AWS RDS plus the access from our frontend to our app.
->
+
 > #### Frontend
 > - **Hay-Noche_Fullstack_v1 :** This was the first version of our frontend application, a skeleton of what we wanted the app to look and function.
 >
@@ -73,22 +72,22 @@ We created this MVP for our final project at Holberton School Uruguay.
 - `MVP`
 > #### Backend
 > **HayNoche-Backend_v2.0 [Sweet Berry]:** This is the latest version of our backend application, here added the "Teatro" entity and it's functionalities
->
+
 > #### Frontend
 > **HayNoche-Fullstack_v1.2 [Cherry Bloom]:** This version can populate it's components with our databases tables by the usage of axios. Axios allows the frontend to contact and read all the data stored in AWS RDS through our backend API (or localhost for development matters). App is currently under plastic surgery and it is looking quite good.
->
+
 > #### Web Scraping
 > **Instagram_Bot:** Script automates the process of downloading posts pictures from Instagram accounts. It is capable of accessing an account, navigating to a specific profile, and downloading all, or a specified number of, posts pictures.
 > 
 > **TickAntel_Bot:** Script is used to web scrape from the webpage TickAntel, with the goal of acquiring all the theater's flyers. Images are then saved to the local directory of our choice.
 ----
 
-### License
+## License
 `Hay Noche` was created for the sole puropose of growing from noobies to professionals. Though, we are looking forward to make this idea come truly alive.
 
 ----
 
-### Authors
+## Authors
 
 [Denisse Landau](https://www.linkedin.com/in/denisselandau/) |
 [Alejandro Montenegro](https://www.linkedin.com/in/alejandro-montenegro-505233184/) |
