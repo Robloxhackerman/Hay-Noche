@@ -1,0 +1,30 @@
+.top_bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    position: fixed;
+    box-sizing: border-box;
+
+    justify-content: space-between;
+
+    top: 0; /* nada me mueve */
+    /* position: absolute;  nada me mueve */
+    z-index: 10000; /* traer al frente */
+    height: 70px;
+    background: linear-gradient(180deg, #152046 0%, rgba(155, 24, 201, 0.5) 151.25%);
+
+    max-width: 100%;
+    width: 100%;
+
+    box-shadow: 0px 0px 9px 0px #10101087;
+}
+
+.logo_png {
+    width: 110px;
+}
+
+.icono {
+    height: 20px;
+}
