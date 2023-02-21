@@ -1,12 +1,15 @@
 import React, {useEffect, useState} from 'react';
-import { Helmet } from 'react-helmet';
-import { styled } from '@mui/material/styles';
+
 import TopBar from "../components/header/TopBar";
 import BottomBar from "../components/footer/BottomBar";
 import Kard from "../components/kards/Kard";
-import axios from "axios";
 
-const BiggestKontainer = styled('div')({
+import style from "../css/index/index.module.css";
+import stylePage from '../css/page_bares/bares.module.css'
+import axios from "axios";
+import {Helmet} from "react-helmet";
+
+/*const BiggestKontainer = styled('div')({
     backgroundColor: 'hotpink',
     height: '100%',
     width: '100%',
@@ -46,8 +49,26 @@ const KardUpSpacer = styled('div')({
     height: '9px',
     width: '100%'
 });
+*/
+function Bares() {
+    return (
+        <div className={style.back}>
+            <Helmet>
+                <title>Bares</title>
+            </Helmet>
+            <div className={stylePage.biggest_kontainer}>
+                <TopBar></TopBar>
+                <div className={stylePage.kard_kontainer_B}>
+                    <Kard></Kard>
+                    <div className={stylePage.joker}></div>
+                </div>
+            </div>
+            <BottomBar></BottomBar>
+        </div>
+    )
+}
 
-function Restaurants (props) {
+/*function Restaurants (props) {
     const [barresProfile, setBarresProfile] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
 
@@ -101,5 +122,6 @@ function Restaurants (props) {
         </BiggestKontainer>
     );
 }
+*/
 
-export default Restaurants;
+export default Bares;

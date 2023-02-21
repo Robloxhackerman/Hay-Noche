@@ -13,7 +13,7 @@
     /* position: absolute;  nada me mueve */
     z-index: 10000; /* traer al frente */
     height: 70px;
-    background: linear-gradient(180deg, #152046 0%, rgba(155, 24, 201, 0.5) 151.25%);
+    background: linear-gradient(180deg, #152046 0%, rgba(155, 24, 201, 1) 151.25%);
 
     max-width: 100%;
     width: 100%;

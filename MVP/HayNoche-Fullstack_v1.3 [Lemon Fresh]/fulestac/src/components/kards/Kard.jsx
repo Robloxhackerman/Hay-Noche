@@ -2,7 +2,17 @@ import React from "react";
 import {styled} from '@mui/material/styles';
 import barCarnesImg from "../../assets/images/portadas/bar_de_carnes.jpeg";
 
-const FullKard = styled('div')({
+import style from '../../css/kards/Kard.module.css'
+
+import iconDay from '../../assets/icons/lineas-de-calendario.png'
+import iconTime from '../../assets/icons/reloj-tres.png'
+import iconDir from '../../assets/icons/marcador.png'
+import iconGluten from '../../assets/icons/gluten-free.png'
+import iconVegan from '../../assets/icons/vegan.png'
+import iconAdult from '../../assets/icons/plus-18-movie.png'
+
+
+/*const FullKard = styled('div')({
     backgroundColor: 'yellow',
     height: "230px",
     width: '100%',
@@ -128,45 +138,94 @@ const KardAdress = styled('div')({
     justifyContent: 'center',
     display: "flex"
 });
+*/
 
+
+/*function Kard ({name, opens, closes, adress}) {
+
+    return (
+        <div>
+                <FullKard>
+                    <TrueKard>
+                        <KardInfo>
+                            <KardHeather>
+                                <KardName>
+                                    <h3>{name}</h3>
+                                </KardName>
+                                <KardPrice></KardPrice>
+                            </KardHeather>
+                            <KardVody>
+                                <KardDay>
+                                    <h3>{name}</h3>
+                                </KardDay>
+                                <KardTime>
+                                    <h4>{opens} -</h4>
+                                    <h4> - {closes}</h4>
+                                </KardTime>
+                                <KardAdress>
+                                    <h3>{adress}</h3>
+                                </KardAdress>
+
+                            </KardVody>
+                        </KardInfo>
+                        <KardImg src={barCarnesImg}>
+
+                        </KardImg>
+                    </TrueKard>
+                    <KardMoney>
+                        <h4> X </h4>
+                        <h4> X </h4>
+                        <h4> X </h4>
+                        <h4> X </h4>
+                    </KardMoney>
+                </FullKard>
+        </div>
+    );
+}
+ */
 
 function Kard(/*{name, opens, closes, adress}*/) {
 
     return (
         <div>
-            <FullKard>
-                <TrueKard>
-                    <KardInfo>
-                        <KardHeather>
-                            <KardName>
+            <div className={style.full_kard}>
+                <div className={style.true_kard}>
+                    <div className={style.kard_info}>
+                        <div className={style.kard_heather}>
+                            <div className={style.kard_price}>
+                                <h4>$$$</h4>
+                            </div>
+                            <div className={style.kard_name}>
                                 <h3>{/*name*/}</h3>
-                            </KardName>
-                            <KardPrice></KardPrice>
-                        </KardHeather>
-                        <KardVody>
-                            <KardDay>
-                                <h3>{/*name*/}</h3>
-                            </KardDay>
-                            <KardTime>
-                                <h4>{/*opens*/} -</h4>
-                                <h4> - {/*closes*/}</h4>
-                            </KardTime>
-                            <KardAdress>
-                                <h3>{/*adress*/}</h3>
-                            </KardAdress>
+                            </div>
 
-                        </KardVody>
-                    </KardInfo>
-                    <KardImg src={barCarnesImg}>
-                    </KardImg>
-                </TrueKard>
-                <KardMoney>
-                    <h4> X </h4>
-                    <h4> X </h4>
-                    <h4> X </h4>
-                    <h4> X </h4>
-                </KardMoney>
-            </FullKard>
+                        </div>
+                        <div className={style.kard_vody}>
+                            <div className={style.kard_day}>
+                                <img className={style.icon} src={iconDay}></img>
+                                <h3>{/*name*/}</h3>
+                            </div>
+                            <div className={style.kard_time}>
+                                <img className={style.icon} src={iconTime}></img>
+                                <h4>{/*opens*/}-</h4>
+                                <h4> {/*closes*/}</h4>
+                            </div>
+                            <div className={style.kard_adress}>
+                                <img className={style.icon} src={iconDir}></img>
+                                <h3>{/*adress*/}</h3>
+                            </div>
+
+                        </div>
+                    </div>
+                    <img className={style.kard_img} src={barCarnesImg}>
+                    </img>
+                </div>
+                <div className={style.kard_money}>
+                    <img className={style.true} src={iconGluten}></img>
+                    <img className={style.false} src={iconVegan}></img>
+                    <img className={style.true} src={iconAdult}></img>
+                </div>
+            </div>
         </div>
     );
 }
