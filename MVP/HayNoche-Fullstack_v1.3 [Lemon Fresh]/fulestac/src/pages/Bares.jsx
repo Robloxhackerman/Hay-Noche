@@ -19,11 +19,11 @@ function Bares() {
         axios
             .get('http://10.9.100.46:5000/api/barres') // con localhost no le gusta andar
             .then(resp => {
-                setBarresProfile(resp.data); // se carga la data
+                setBarresProfile(resp.data.content); // se carga la data
             });
 
     };
-
+    console.log(barresProfile)
     useEffect(() => {
         fetchBarresProfile();
         setIsLoading(false); // con esto sabes que terminaron de cargar
@@ -39,30 +39,45 @@ function Bares() {
     }
 
     return (
-        <div className={style.back}>
-            <Helmet>
-                <title>Bares</title>
-            </Helmet>
+        <div className={stylePage.biggest_kontainer}>
+            {isLoading
+                ? renderLoading()
+                : barresProfile.map((k, index) => {
+                    return (
+                        <div
+                            key={k.barres_id}
+                        >
+                            <Helmet>
+                                <title>Bares</title>
+                            </Helmet>
 
 
-            <div className={stylePage.biggest_kontainer}>
+                            <div>
 
-                <TopBar></TopBar>
+                                <TopBar></TopBar>
 
-                <div className={stylePage.kard_kontainer_B}>
+                                <div className={stylePage.kard_kontainer_B}>
 
-                    <Kard></Kard>
+                                    <Kard
+                                        name={k.barResName}
+                                        timeOpens={k.barResOpens}
+                                        timeCloses={k.barResCloses}
+                                        adress={k.barResAdress}
+                                        dayOpens={k.barResDayOpens}
+                                        dayCloses={k.barResDayCloses}
+                                    ></Kard>
 
-                    <div className={stylePage.joker}></div>
+                                </div>
 
-                </div>
+                            </div>
 
-            </div>
-
-
-            <BottomBar></BottomBar>
+                            <BottomBar></BottomBar>
+                        </div>
+                    );
+                })}
+            <div className={stylePage.joker}></div>
         </div>
-    )
+    );
 }
 
 /*function Restaurants (props) {

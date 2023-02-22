@@ -6,7 +6,7 @@
     box-sizing: border-box;
     height: 100%;
     width: 100%;
-    padding: 10px 10px 100px 10px;
+    padding: 10px 10px 0px 10px;
 
 }
 
@@ -16,11 +16,14 @@
     position: relative;
     align-items: center;
     margin-top: 75px;
-    margin-bottom: 705px;
     justify-content: space-between;
     box-sizing: border-box;
     flex-direction: column;
     overflow: auto;
+    height: 100vh;
+    background: radial-gradient(164.57% 100% at 50% 0%, #370B46 0%, #470D63 30.73%, #1C0F26 67.71%);
+
+
 }
 
 .joker {

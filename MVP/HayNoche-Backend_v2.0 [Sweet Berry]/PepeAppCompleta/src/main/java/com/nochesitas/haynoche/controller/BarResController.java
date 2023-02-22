@@ -6,6 +6,7 @@ import com.nochesitas.haynoche.service.BarResService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -49,7 +50,7 @@ public class BarResController {
     //Metodo para obtener todos los barres con su correspondiente info de la database
     @GetMapping
     public ResponseEntity<Page<BarRes>> getAllBarRes(
-            @RequestParam(name = "barResType", required = false) String barResType,
+            @RequestParam(name = "barResType", required = false) String barResType, @PageableDefault(value = 100)
             Pageable pageable) {
 
         Page<BarRes> barResPage;

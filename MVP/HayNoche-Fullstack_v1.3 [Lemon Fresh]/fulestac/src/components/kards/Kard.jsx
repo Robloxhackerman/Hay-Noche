@@ -184,7 +184,7 @@ const KardAdress = styled('div')({
 }
  */
 
-function Kard(/*{name, opens, closes, adress}*/) {
+function Kard({name, timeOpens, timeCloses, adress, dayOpens, dayCloses}) {
 
     return (
         <div>
@@ -196,23 +196,24 @@ function Kard(/*{name, opens, closes, adress}*/) {
                                 <h4>$$$</h4>
                             </div>
                             <div className={style.kard_name}>
-                                <h3>{/*name*/}</h3>
+                                <h1>{name}</h1>
                             </div>
-
                         </div>
                         <div className={style.kard_vody}>
                             <div className={style.kard_day}>
                                 <img className={style.icon} src={iconDay}></img>
-                                <h3>{/*name*/}</h3>
+                                <h3>{dayOpens} a</h3>
+
+                                <h3> {dayCloses}</h3>
                             </div>
                             <div className={style.kard_time}>
                                 <img className={style.icon} src={iconTime}></img>
-                                <h4>{/*opens*/}-</h4>
-                                <h4> {/*closes*/}</h4>
+                                <h4>{timeOpens}-</h4>
+                                <h4>{timeCloses}</h4>
                             </div>
                             <div className={style.kard_adress}>
                                 <img className={style.icon} src={iconDir}></img>
-                                <h3>{/*adress*/}</h3>
+                                <h3>{adress}</h3>
                             </div>
 
                         </div>

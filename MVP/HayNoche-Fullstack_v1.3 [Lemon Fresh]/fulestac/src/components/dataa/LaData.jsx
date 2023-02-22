@@ -116,8 +116,22 @@ const LaData = () => {
 
 };*/
 
-function LaData() {
+const LaData = () => {
+    const [barresProfiles, setBarresProfile] = useState([]);
+
+    useEffect(() => {
+        fetchBarresProfile();
+    }, []); // this [] is for if any changes arise, it will update
+    const fetchBarresProfile = () => {
+        axios.get("http://localhost:5000/api/barres")
+            .then(response => {
+                setBarresProfile(response.data);
+            });
+    };
+
+    const renderedData = barresProfiles.map((barresProfile, index) => {
     return (
+        <div key={index}>
         <div className={style.data_container}>
             <div className={style.detailed_data_container}>
                 <div>
@@ -156,7 +170,11 @@ function LaData() {
 
             </div>
         </div>
-    )
-}
+        </div>
+    );
+    });
+    return (renderedData.length === 0 ? <h1>Algo</h1> : renderedData);
+
+};
 
 export default LaData;

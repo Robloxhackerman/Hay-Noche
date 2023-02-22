@@ -117,13 +117,14 @@
 }
 
 .kard_name {
-    width: fit-content;
+    width: 100%;
     font-size: 18px;
     color: white;
     padding: 2px 5px 2px 5px;
+    box-sizing: border-box;
 }
 
-.kard_name > h3 {
+.kard_name > h1 {
     overflow-wrap: break-word;
     text-align: left;
     inline-size: 170px;
@@ -198,4 +199,16 @@ h4, h3 {
 .false {
     height: 30px;
     opacity: 30%;
+}
+h1 {
+    font-size: 17px;
+}
+h3 {
+    font-size: 14px;
+}
+h4 {
+    font-size: 13px;
+}
+h5 {
+    font-size: 10px;
 }
