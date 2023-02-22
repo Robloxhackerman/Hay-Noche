@@ -17,7 +17,7 @@ function Bares() {
     const fetchBarresProfile = () => {
         console.log("respondo");
         axios
-            .get('http://10.9.100.46:5000/api/barres') // con localhost no le gusta andar
+            .get('http://10.9.100.88:5000/api/barres') // con localhost no le gusta andar
             .then(resp => {
                 setBarresProfile(resp.data.content); // se carga la data
             });
@@ -65,6 +65,7 @@ function Bares() {
                                         adress={k.barResAdress}
                                         dayOpens={k.barResDayOpens}
                                         dayCloses={k.barResDayCloses}
+                                        url={k.barResFotoId}
                                     ></Kard>
 
                                 </div>
