@@ -90,5 +90,11 @@ We created this MVP for our final project at Holberton School Uruguay.
 ## Authors
 
 [Denisse Landau](https://www.linkedin.com/in/denisselandau/) |
-[Alejandro Montenegro](https://www.linkedin.com/in/alejandro-montenegro-505233184/) |
-[Santiago Rodriguez](https://www.linkedin.com/in/santiago-rodriguez-a1901b246/) | [Romina Guimaraens](https://www.linkedin.com/in/romina-guimaraens-465992238/)
+Project Manager & Fullstack Developer & DevOps
+
+[Alejandro Montenegro](https://www.linkedin.com/in/alejandro-montenegro-505233184/) | Backend Developer **heavy** & Fullstack Developer 
+
+
+[Santiago Rodriguez](https://www.linkedin.com/in/santiago-rodriguez-a1901b246/) | Data Scientist & Web Scraper
+
+[Romina Guimaraens](https://www.linkedin.com/in/romina-guimaraens-465992238/) | Frontend Developer & UI-UX Design
