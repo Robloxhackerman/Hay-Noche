@@ -5,6 +5,7 @@ import {styled} from "@mui/material/styles";
 
 import style from '../../css/dataa/data.module.css'
 
+/*
 const Rectangle1 = styled('div')({
     backgroundColor: 'rgba(13, 12, 19, 0.8)',
     width: '428px',
@@ -82,7 +83,7 @@ const ButtonImage = styled('div')({
     width: '250px'
 });
 
-/*
+
 const LaData = () => {
     const [barresProfiles, setBarresProfile] = useState([]);
 
@@ -137,11 +138,14 @@ function LaData() {
                             <h2 id="low">$</h2>
                         </div>
                         <div className={style.price_icon}>
-                            <h2 id="low">$</h2>
+                            <h2 id="medium">$</h2>
                         </div>
                         <div className={style.price_icon}>
-                            <h2 id="low">$</h2>
+                            <h2 id="high">$</h2>
                         </div>
+                    </div>
+                    <div>
+
                     </div>
                 </div>
             </div>

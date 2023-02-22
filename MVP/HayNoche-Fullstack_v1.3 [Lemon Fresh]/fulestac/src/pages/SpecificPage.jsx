@@ -18,6 +18,7 @@ function SpecificPage(props) {
             </Helmet>
             <div className={stylePage.biggest_kontainer}>
                 <TopBar></TopBar>
+                <div className={stylePage.extra}></div>
                 <CarruselHome></CarruselHome>
 
                 <div className={stylePage.info_kontainer}>
