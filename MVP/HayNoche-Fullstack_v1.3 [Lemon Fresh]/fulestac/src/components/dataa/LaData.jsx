@@ -3,6 +3,8 @@ import axios from "axios";
 import {Helmet} from "react-helmet";
 import {styled} from "@mui/material/styles";
 
+import style from '../../css/dataa/data.module.css'
+
 const Rectangle1 = styled('div')({
     backgroundColor: 'rgba(13, 12, 19, 0.8)',
     width: '428px',
@@ -80,6 +82,7 @@ const ButtonImage = styled('div')({
     width: '250px'
 });
 
+/*
 const LaData = () => {
     const [barresProfiles, setBarresProfile] = useState([]);
 
@@ -101,7 +104,7 @@ const LaData = () => {
                 </Helmet>
                 <Rectangle1>
                     <Square1 />
-                    <Name className='nombre'>{barresProfile.barres_id}</Name>
+                    <Name className='nombre'>{barresProfile.barres_id}></Name>
                     <ButtonImage>
                     </ButtonImage>
                 </Rectangle1>
@@ -109,5 +112,47 @@ const LaData = () => {
             );
     });
     return (renderedData.length === 0 ? <h1>Algo</h1> : renderedData);
-};
+
+};*/
+
+function LaData() {
+    return (
+        <div className={style.data_container}>
+            <div className={style.detailed_data_container}>
+                <div>
+                    <h1>Don Pepe</h1>
+                </div>
+            </div>
+            <div className={style.detailed_data_container}>
+                <div>
+                    <h2></h2>
+                </div>
+            </div>
+            <br/>
+            <div className={style.detailed_data_container}>
+                <div className={style.place_price_field}>
+                    <h2>Precio</h2>
+                    <div className={style.place_price_field_icon}>
+                        <div className={style.price_icon}>
+                            <h2 id="low">$</h2>
+                        </div>
+                        <div className={style.price_icon}>
+                            <h2 id="low">$</h2>
+                        </div>
+                        <div className={style.price_icon}>
+                            <h2 id="low">$</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className={style.detailed_data_container}>
+
+            </div>
+            <div className={style.detailed_data_container}>
+
+            </div>
+        </div>
+    )
+}
+
 export default LaData;

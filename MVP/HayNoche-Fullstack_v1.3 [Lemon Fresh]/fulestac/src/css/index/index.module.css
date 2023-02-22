@@ -30,6 +30,7 @@
 .main {
     box-sizing: border-box;
     padding: 10px;
+    margin-top: 70px;
 }
 
 .search_bar {

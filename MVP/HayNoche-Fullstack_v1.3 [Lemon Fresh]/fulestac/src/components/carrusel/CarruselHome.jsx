@@ -27,7 +27,6 @@ const Property1Slider1 = styled('div')({
         objectFit: 'cover'
     },
 
-    marginTop: '70px',
     borderRadius: '20px'
 
 });
