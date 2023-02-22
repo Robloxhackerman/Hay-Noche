@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ea52b930-669c-45d1-87af-80072ce73c2e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../HayNoche-Fullstack_v1.3 [Lemon Fresh]/fulestac/src/components/bares/DenisseCambialo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HayNoche-Fullstack_v1.3 [Lemon Fresh]/fulestac/src/css/page_bares/bares.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/../HayNoche-Fullstack_v1.3 [Lemon Fresh]/fulestac/src/css/page_bares/bares.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HayNoche-Fullstack_v1.3 [Lemon Fresh]/fulestac/src/pages/Bares.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../HayNoche-Fullstack_v1.3 [Lemon Fresh]/fulestac/src/pages/Bares.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2M5qE4JcpPtntUzv2ifXAlGcEhz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/5068/Desktop/Hay-Noche/MVP/TEST -- HayNoche-Fullstack_v1.3 [Lemon Fresh]",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea52b930-669c-45d1-87af-80072ce73c2e" name="Changes" comment="" />
+      <created>1677067675752</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677067675752</updated>
+      <workItem from="1677067677593" duration="2124000" />
+      <workItem from="1677076349279" duration="12453000" />
+      <workItem from="1677094892456" duration="2204000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
