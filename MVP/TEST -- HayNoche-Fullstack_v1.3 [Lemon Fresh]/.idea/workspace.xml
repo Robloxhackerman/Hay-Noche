@@ -7,17 +7,10 @@
     <list default="true" id="ea52b930-669c-45d1-87af-80072ce73c2e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fulestac/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/fulestac/node_modules/.cache/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/1.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/10.pack" beforeDir="false" afterPath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/10.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/2.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/6.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/9.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/index.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fulestac/src/components/bares/DenisseCambialo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/fulestac/src/components/bares/DenisseCambialo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fulestac/src/components/footer/BottomBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/fulestac/src/components/footer/BottomBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fulestac/src/css/page_bares/bares.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/fulestac/src/css/page_bares/bares.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fulestac/src/css/page_categorias/categoria.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/fulestac/src/css/page_categorias/categoria.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fulestac/src/css/kards/Kard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/fulestac/src/css/kards/Kard.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fulestac/src/pages/Bares.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/fulestac/src/pages/Bares.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +53,7 @@
       <updated>1677067675752</updated>
       <workItem from="1677067677593" duration="2124000" />
       <workItem from="1677076349279" duration="12453000" />
-      <workItem from="1677094892456" duration="7203000" />
+      <workItem from="1677094892456" duration="7704000" />
     </task>
     <servers />
   </component>

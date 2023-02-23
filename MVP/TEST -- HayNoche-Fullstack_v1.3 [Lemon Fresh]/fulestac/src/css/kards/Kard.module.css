@@ -32,8 +32,8 @@
 }
 
 .kard_img {
-    height: 100%;
-    width: 90%;
+    height: 200px;
+    width: 130px;
     box-sizing: border-box;
 
     box-shadow: inset 0px 0px 13px 4px rgba(0, 0, 0, 0.44);
