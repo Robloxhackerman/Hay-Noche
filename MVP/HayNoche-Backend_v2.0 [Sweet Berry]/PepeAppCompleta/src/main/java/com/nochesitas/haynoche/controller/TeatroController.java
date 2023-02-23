@@ -69,16 +69,12 @@ public class TeatroController {
     /*Metodo para editar un bar/res existente
 
     {
-        "barResName":"UN STRING",
-        "barResAdress":"UN STRING",
-        "barResVegan":"TRUE/FALSE",
-        "barResGlutenFree":"TRUE/FALSE",
-        "barResAdult":"TRUE/FALSE",
-        "barResOpens":"HORA:MINUTOS:SEGUNDOS",
-        "barResCloses":"HORA:MINUTOS:SEGUNDOS",
-        "barResDayOpens": "DE 0 A 6 [0="LUNES",1="MARTES",2="MIERCOLES",3="JUEVES",4="VIERNES",5="SABADO",6="DOMINGO"],
-        "barResDayCloses": "DE 0 A 6 [0="LUNES",1="MARTES",2="MIERCOLES",3="JUEVES",4="VIERNES",5="SABADO",6="DOMINGO"],
-        "barResLocation": "DE 0 A 2 [0="PUNTA CARRETAS", 1="POCITOS", 2="CORDON"]"
+        "tObraName": "[STRING]",
+        "tObraAdress": "[STRING]",
+        "tObraStarts": "DIA-MES-AÑO",
+        "tObraEnds": "DIA-MES-AÑO",
+        "tObraAge": "[INTEGER]",
+        "tObraLink": "[STRING]"
     }
      */
     @PutMapping("/{id}")

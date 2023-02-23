@@ -1,0 +1,36 @@
+.kard_kontainer_B {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    padding: 10px 10px 0px 10px;
+
+}
+
+.biggest_kontainer {
+    max-height: 100%;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    margin-top: 70px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    flex-direction: column;
+    overflow: auto;
+    height: 100vh;
+    background: radial-gradient(164.57% 100% at 50% 0%, #370B46 0%, #470D63 30.73%, #1C0F26 67.71%);
+}
+
+.joker {
+    height: 60px;
+    width: 100%;
+}
+
+.nav_filtreishon {
+    position: fixed;
+    z-index: 1000;
+    padding: 10px;
+}

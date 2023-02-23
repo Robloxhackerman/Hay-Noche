@@ -8,9 +8,11 @@ import style from "../css/index/index.module.css";
 import stylePage from '../css/page_bares/bares.module.css'
 import axios from "axios";
 import {Helmet} from "react-helmet";
+import DenisseCambialo from "../components/bares/DenisseCambialo";
 
 
 function Bares() {
+<<<<<<< Updated upstream
     const [barresProfile, setBarresProfile] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
 
@@ -38,19 +40,17 @@ function Bares() {
         );
     }
 
+=======
+>>>>>>> Stashed changes
     return (
-        <div className={stylePage.biggest_kontainer}>
-            {isLoading
-                ? renderLoading()
-                : barresProfile.map((k, index) => {
-                    return (
-                        <div
-                            key={k.barres_id}
-                        >
-                            <Helmet>
-                                <title>Bares</title>
-                            </Helmet>
+        <div>
+            <Helmet>
+                <title>Bares</title>
+            </Helmet>
+            <TopBar></TopBar>
+            <DenisseCambialo></DenisseCambialo>
 
+<<<<<<< Updated upstream
 
                             <div>
 
@@ -77,8 +77,11 @@ function Bares() {
                     );
                 })}
             <div className={stylePage.joker}></div>
+=======
+            <BottomBar></BottomBar>
+>>>>>>> Stashed changes
         </div>
-    );
+    )
 }
 
 /*function Restaurants (props) {

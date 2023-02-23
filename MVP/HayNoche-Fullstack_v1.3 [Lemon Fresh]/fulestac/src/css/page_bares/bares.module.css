@@ -15,15 +15,13 @@
     width: 100%;
     position: relative;
     align-items: center;
-    margin-top: 75px;
+    margin-top: 70px;
     justify-content: space-between;
     box-sizing: border-box;
     flex-direction: column;
     overflow: auto;
     height: 100vh;
     background: radial-gradient(164.57% 100% at 50% 0%, #370B46 0%, #470D63 30.73%, #1C0F26 67.71%);
-
-
 }
 
 .joker {

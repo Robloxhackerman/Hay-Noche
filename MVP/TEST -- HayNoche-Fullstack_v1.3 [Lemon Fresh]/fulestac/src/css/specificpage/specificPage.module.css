@@ -1,0 +1,42 @@
+.biggest_kontainer {
+    max-height: 100%;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    margin-top: 7px;
+    margin-bottom: 705px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    flex-direction: column;
+    overflow: auto;
+}
+
+
+
+.nombre {
+    font-family: "fenwick", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+.subheading {
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 300;
+    font-style: bold;
+    color: white;
+}
+
+.cuerpo {
+    font-family: "fenwick", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+}
+.extra {
+    height: 70px;
+}
+.info_kontainer {
+    padding: 10px;
+    box-sizing: border-box;
+}
