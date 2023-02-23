@@ -9,19 +9,138 @@ import stylePage from '../css/page_bares/bares.module.css'
 import axios from "axios";
 import {Helmet} from "react-helmet";
 import DenisseCambialo from "../components/bares/DenisseCambialo";
+import styleCat from "../css/page_categorias/categoria.module.css";
 
 
 function Bares() {
     return (
-        <div>
+        <div className={style.back}>
             <Helmet>
                 <title>Bares</title>
             </Helmet>
             <TopBar></TopBar>
             <div className={stylePage.nav_filtreishon}>
-                <h1>aaa</h1>
+                <div className={styleCat.btn_container}>
+                    <div className={styleCat.btn_back}>
+                        <div className={styleCat.btn_border}>
+                            <div className={stylePage.btn}>
+                                <h1>CATEGORIA</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className={styleCat.btn_container}>
+                    <div className={styleCat.btn_back}>
+                        <div className={styleCat.btn_border}>
+                            <div className={stylePage.btn}>
+                                <h1>CATEGORIA</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className={styleCat.btn_container}>
+                    <div className={styleCat.btn_back}>
+                        <div className={styleCat.btn_border}>
+                            <div className={stylePage.btn}>
+                                <h1>CATEGORIA</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className={styleCat.btn_container}>
+                    <div className={styleCat.btn_back}>
+                        <div className={styleCat.btn_border}>
+                            <div className={stylePage.btn}>
+                                <h1>CATEGORIA</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className={styleCat.btn_container}>
+                    <div className={styleCat.btn_back}>
+                        <div className={styleCat.btn_border}>
+                            <div className={stylePage.btn}>
+                                <h1>CATEGORIA</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className={styleCat.btn_container}>
+                    <div className={styleCat.btn_back}>
+                        <div className={styleCat.btn_border}>
+                            <div className={stylePage.btn}>
+                                <h1>CATEGORIA</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className={styleCat.btn_container}>
+                    <div className={styleCat.btn_back}>
+                        <div className={styleCat.btn_border}>
+                            <div className={stylePage.btn}>
+                                <h1>CATEGORIA</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className={styleCat.btn_container}>
+                    <div className={styleCat.btn_back}>
+                        <div className={styleCat.btn_border}>
+                            <div className={stylePage.btn}>
+                                <h1>CATEGORIA</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className={styleCat.btn_container}>
+                    <div className={styleCat.btn_back}>
+                        <div className={styleCat.btn_border}>
+                            <div className={stylePage.btn}>
+                                <h1>CATEGORIA</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className={styleCat.btn_container}>
+                    <div className={styleCat.btn_back}>
+                        <div className={styleCat.btn_border}>
+                            <div className={stylePage.btn}>
+                                <h1>CATEGORIA</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className={styleCat.btn_container}>
+                    <div className={styleCat.btn_back}>
+                        <div className={styleCat.btn_border}>
+                            <div className={stylePage.btn}>
+                                <h1>CATEGORIA</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className={styleCat.btn_container}>
+                    <div className={styleCat.btn_back}>
+                        <div className={styleCat.btn_border}>
+                            <div className={stylePage.btn}>
+                                <h1>CATEGORIA</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className={styleCat.btn_container}>
+                    <div className={styleCat.btn_back}>
+                        <div className={styleCat.btn_border}>
+                            <div className={stylePage.btn}>
+                                <h1>CATEGORIA</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
             <DenisseCambialo></DenisseCambialo>
+
             <BottomBar></BottomBar>
         </div>
     )

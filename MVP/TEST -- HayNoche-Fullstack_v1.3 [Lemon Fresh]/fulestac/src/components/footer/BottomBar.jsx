@@ -14,7 +14,7 @@ function BottomBar() {
             <a className={style.bar_btn}>
                 <img src={login}></img>
             </a>
-            <a className={style.bar_btn}>
+            <a className={style.bar_btn} href='/'>
                 <img src={home}></img>
             </a>
             <a className={style.bar_btn}>

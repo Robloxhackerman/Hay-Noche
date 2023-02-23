@@ -36,9 +36,7 @@ function DenisseCambialo() {
 
     return (
         <div className={stylePage.biggest_kontainer}>
-            <div className={stylePage.nav_filtreishon}>
-                <h1>aaa</h1>
-            </div>
+
             {isLoading
                 ? renderLoading()
                 : barresProfile.map((k, index) => {

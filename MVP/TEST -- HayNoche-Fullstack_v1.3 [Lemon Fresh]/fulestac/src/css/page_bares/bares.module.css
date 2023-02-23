@@ -15,14 +15,13 @@
     width: 100%;
     position: relative;
     align-items: center;
-    margin-top: 70px;
+
     justify-content: space-between;
     box-sizing: border-box;
     flex-direction: column;
     overflow: auto;
     height: 100vh;
-    background: radial-gradient(164.57% 100% at 50% 0%, #370B46 0%, #470D63 30.73%, #1C0F26 67.71%);
-}
+    }
 
 .joker {
     height: 60px;
@@ -30,7 +29,39 @@
 }
 
 .nav_filtreishon {
-    position: fixed;
+    position: relative;
     z-index: 1000;
     padding: 10px;
+    margin-top: 70px;
+
+    display: flex;
+    box-sizing: border-box;
+
+    overflow: auto;
+    white-space: nowrap;
+
+    gap: 10px;
+}
+
+.btn{
+    border-radius: 30px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #24124A;
+}
+.btn_back {
+    background-color: #24124A;
+    border-radius: 32px;
+    box-shadow: 0px 0px 9px 0px #10101087;
+}
+.btn_border{
+    padding: 2px;
+    border-radius: 32px;
+    background: linear-gradient(150.51deg, #AD00FF 1.6%, rgba(155, 111, 238, 0) 34.56%, rgba(76, 60, 175, 0) 63.47%, #6E3392 98.97%);
+}
+.btn h1 {
+    margin: 0;
+    color: #cebdff;
 }

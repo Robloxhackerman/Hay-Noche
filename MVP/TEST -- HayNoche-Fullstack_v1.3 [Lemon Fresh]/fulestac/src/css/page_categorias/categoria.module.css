@@ -19,6 +19,9 @@
     align-items: center;
     justify-content: center;
     background-color: #24124A;
+
+    border: none;
+    outline: none;
 }
 .btn_back {
     background-color: #24124A;
