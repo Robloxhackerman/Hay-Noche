@@ -55,6 +55,7 @@ function DenisseCambialo() {
                                         adress={k.barResAdress}
                                         dayOpens={k.barResDayOpens}
                                         dayCloses={k.barResDayCloses}
+                                        url={k.barResFotoId}
                                     ></Kard>
                                 </div>
                             </div>

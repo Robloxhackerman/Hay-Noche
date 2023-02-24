@@ -184,7 +184,7 @@ const KardAdress = styled('div')({
 }
  */
 
-function Kard({name, timeOpens, timeCloses, adress, dayOpens, dayCloses}) {
+function Kard({name, timeOpens, timeCloses, adress, dayOpens, dayCloses, url}) {
 
     return (
         <div>
@@ -218,8 +218,7 @@ function Kard({name, timeOpens, timeCloses, adress, dayOpens, dayCloses}) {
 
                         </div>
                     </div>
-                    <img className={style.kard_img} src={barCarnesImg}>
-                    </img>
+                    <img className={style.kard_img} src={'/assets/portadas/' + url + '.jpeg'} alt={'s'} />
                 </div>
                 <div className={style.kard_money}>
                     <img className={style.true} src={iconGluten}></img>

@@ -5,13 +5,132 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea52b930-669c-45d1-87af-80072ce73c2e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/alba.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/bar_de_carnes.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/bbq_pocitos.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/birra_brava.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/burguer_&amp;_sushi_pocitos.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/burguer_point.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/cantina_obligado.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/casa_bruja.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/che_montevideo.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/dakota_steakhouse.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/el_bacilon_pub.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/el_barzon.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/el_berretin.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/el_comedy.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/el_otro_bar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/el_rancho_bar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/el_sotano.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/el_viejo_sosa.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/espacio_sarmiento.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/fellini_pocitos.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/finisterre_bar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/gallaghers.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/hey_chopp.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/icons_restopub.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/inka_chicken.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/jackson_Bar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/kokoro_sushi.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/la_chingada.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/la_chula.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/la_esquina_bar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/la_fabrica_bar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/la_vaca_azul.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/leyenda_restaurant.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/marlon_bar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/matute.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/mbc_pocitos.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/mushroom_bar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/naru_sushi_bar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/negroni.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/noa_noa.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/oso_pardo.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/panda.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/parrillada_la_cavia.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/plaza_de_chueca.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/polo_bamba.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/que_pinta_mike.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/que_pinta_mike.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/shelter.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/sushi_go.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/sushi_go.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/sushi_wok_peru.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/tanguito_bar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/tanguito_bar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/tapa_tapita.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/the_puta_madre_bar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/public/assets/portadas/wine_not.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/bbq_pocitos.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/birra_brava.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/burguer___sushi_pocitos.jprg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/burguer_point.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/cantina_obligado.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/casa_bruja.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/che_montevideo.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/dakota_steakhouse.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/el_bacilon_pub.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/el_barzon.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/el_berretin.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/el_comedy.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/el_otro_bar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/el_rancho_bar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/el_sotano.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/el_viejo_sosa.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/espacio_sarmiento.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/fellini_pocitos.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/finisterre_bar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/gallaghers.jprg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/hey_chopp.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/icons_restopub.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/inka_chicken.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/jackson_Bar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/kokoro_sushi.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/la_chingada.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/la_chula.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/la_esquina_bar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/la_vaca_azul.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/leyenda_restaurant.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/marlon_bar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/matute.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/mushroom_bar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/naru_sushi_bar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/negroni.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/noa_noa.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/oso_pardo.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/panda.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/parrillada_la_cavia.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/plaza_de_chueca.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/polo_bamba.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/q_pinta_mike.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/que_pinta_mike.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/shelter.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/sushi_go.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/sushi_go.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/sushi_wok_peru.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/tanguito_bar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/tanguito_bar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/tapa_tapita.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/the_puta_madre_bar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fulestac/src/assets/images/portadas/wine_not.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fulestac/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/fulestac/node_modules/.cache/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/6.pack" beforeDir="false" afterPath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/6.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/0.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/1.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/10.pack" beforeDir="false" afterPath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/10.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/13.pack" beforeDir="false" afterPath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/13.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/2.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/3.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/4.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/7.pack" beforeDir="false" afterPath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/7.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/8.pack" beforeDir="false" afterPath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/8.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/9.pack" beforeDir="false" afterPath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/9.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/index.pack" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/fulestac/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fulestac/src/css/kards/Kard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/fulestac/src/css/kards/Kard.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fulestac/src/components/bares/DenisseCambialo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/fulestac/src/components/bares/DenisseCambialo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fulestac/src/components/kards/Kard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/fulestac/src/components/kards/Kard.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fulestac/src/pages/Bares.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/fulestac/src/pages/Bares.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fulestac/src/scripts/AxiosSaam.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,16 +144,20 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2M5qE4JcpPtntUzv2ifXAlGcEhz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/5068/Desktop/Hay-Noche/MVP/TEST -- HayNoche-Fullstack_v1.3 [Lemon Fresh]",
+    "last_opened_file_path": "C:/Users/5068/Desktop/Hay-Noche/MVP/TEST -- HayNoche-Fullstack_v1.3 [Lemon Fresh]/fulestac/public/assets/portadas",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -43,6 +166,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\5068\Desktop\Hay-Noche\MVP\TEST -- HayNoche-Fullstack_v1.3 [Lemon Fresh]\fulestac\public\assets\portadas" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\5068\Desktop\Hay-Noche\MVP\TEST -- HayNoche-Fullstack_v1.3 [Lemon Fresh]\fulestac\src\assets\images\portadas" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,11 +184,15 @@
       <updated>1677067675752</updated>
       <workItem from="1677067677593" duration="2124000" />
       <workItem from="1677076349279" duration="12453000" />
-      <workItem from="1677094892456" duration="7704000" />
+      <workItem from="1677094892456" duration="8032000" />
+      <workItem from="1677245121716" duration="8350000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

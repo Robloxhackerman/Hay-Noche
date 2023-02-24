@@ -24,7 +24,7 @@ function Bares() {
                     <div className={styleCat.btn_back}>
                         <div className={styleCat.btn_border}>
                             <div className={stylePage.btn}>
-                                <h1>CATEGORIA</h1>
+                                <h1>CERVECERIA</h1>
                             </div>
                         </div>
                     </div>
@@ -33,7 +33,7 @@ function Bares() {
                     <div className={styleCat.btn_back}>
                         <div className={styleCat.btn_border}>
                             <div className={stylePage.btn}>
-                                <h1>CATEGORIA</h1>
+                                <h1>FAMILIAR</h1>
                             </div>
                         </div>
                     </div>
@@ -42,7 +42,7 @@ function Bares() {
                     <div className={styleCat.btn_back}>
                         <div className={styleCat.btn_border}>
                             <div className={stylePage.btn}>
-                                <h1>CATEGORIA</h1>
+                                <h1>GOURMAT</h1>
                             </div>
                         </div>
                     </div>
@@ -51,7 +51,7 @@ function Bares() {
                     <div className={styleCat.btn_back}>
                         <div className={styleCat.btn_border}>
                             <div className={stylePage.btn}>
-                                <h1>CATEGORIA</h1>
+                                <h1>HAMBURGUESERIAA</h1>
                             </div>
                         </div>
                     </div>
@@ -60,7 +60,7 @@ function Bares() {
                     <div className={styleCat.btn_back}>
                         <div className={styleCat.btn_border}>
                             <div className={stylePage.btn}>
-                                <h1>CATEGORIA</h1>
+                                <h1>JAPONES</h1>
                             </div>
                         </div>
                     </div>
@@ -69,7 +69,7 @@ function Bares() {
                     <div className={styleCat.btn_back}>
                         <div className={styleCat.btn_border}>
                             <div className={stylePage.btn}>
-                                <h1>CATEGORIA</h1>
+                                <h1>MEXICANA</h1>
                             </div>
                         </div>
                     </div>
@@ -78,7 +78,7 @@ function Bares() {
                     <div className={styleCat.btn_back}>
                         <div className={styleCat.btn_border}>
                             <div className={stylePage.btn}>
-                                <h1>CATEGORIA</h1>
+                                <h1>PARRILADA</h1>
                             </div>
                         </div>
                     </div>
@@ -87,7 +87,7 @@ function Bares() {
                     <div className={styleCat.btn_back}>
                         <div className={styleCat.btn_border}>
                             <div className={stylePage.btn}>
-                                <h1>CATEGORIA</h1>
+                                <h1>PARUANA</h1>
                             </div>
                         </div>
                     </div>
@@ -96,7 +96,7 @@ function Bares() {
                     <div className={styleCat.btn_back}>
                         <div className={styleCat.btn_border}>
                             <div className={stylePage.btn}>
-                                <h1>CATEGORIA</h1>
+                                <h1>PIZZERIA</h1>
                             </div>
                         </div>
                     </div>
@@ -105,7 +105,7 @@ function Bares() {
                     <div className={styleCat.btn_back}>
                         <div className={styleCat.btn_border}>
                             <div className={stylePage.btn}>
-                                <h1>CATEGORIA</h1>
+                                <h1>PUB</h1>
                             </div>
                         </div>
                     </div>
@@ -114,7 +114,7 @@ function Bares() {
                     <div className={styleCat.btn_back}>
                         <div className={styleCat.btn_border}>
                             <div className={stylePage.btn}>
-                                <h1>CATEGORIA</h1>
+                                <h1>STAND UP</h1>
                             </div>
                         </div>
                     </div>
@@ -123,7 +123,7 @@ function Bares() {
                     <div className={styleCat.btn_back}>
                         <div className={styleCat.btn_border}>
                             <div className={stylePage.btn}>
-                                <h1>CATEGORIA</h1>
+                                <h1>SUSHI</h1>
                             </div>
                         </div>
                     </div>
@@ -132,7 +132,7 @@ function Bares() {
                     <div className={styleCat.btn_back}>
                         <div className={styleCat.btn_border}>
                             <div className={stylePage.btn}>
-                                <h1>CATEGORIA</h1>
+                                <h1>TRAGOS</h1>
                             </div>
                         </div>
                     </div>
