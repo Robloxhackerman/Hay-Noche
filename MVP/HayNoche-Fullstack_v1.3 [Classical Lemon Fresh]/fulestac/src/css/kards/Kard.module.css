@@ -1,0 +1,223 @@
+.full_kard {
+    height: 230px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 5px
+}
+
+.true_kard {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(152.85deg, rgba(58, 129, 191, 0.08) 0%, rgba(65, 48, 90, 0.03) 100%);
+    box-shadow: inset 0px 0px 5px rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(3.5px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.kard_img {
+    height: 200px;
+    width: 130px;
+    box-sizing: border-box;
+
+    box-shadow: inset 0px 0px 13px 4px rgba(0, 0, 0, 0.44);
+    border-radius: 10px;
+}
+
+.kard_info {
+    height: 100%;
+    width: 110%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.kard_money{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+    width: 44px;
+    left: calc(50% - 45px/2 + 179.5px);
+    top: 70px;
+    bottom: 76px;
+
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(152.85deg, rgba(58, 129, 191, 0.08) 0%, rgba(65, 48, 90, 0.03) 100%);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2), inset 0px 0px 5px rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(3.5px);
+
+    border-radius: 30px;
+
+    height: 75%;
+    margin-left: -22px;
+    max-height: 75%;
+    justify-content: space-between;
+    z-index: 500;
+}
+
+.kard_money h4{
+    margin: 0;
+}
+
+.kard_heather {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    box-sizing: border-box;
+
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(152.85deg, rgba(58, 129, 191, 0.08) 0%, rgba(65, 48, 90, 0.03) 100%);
+    box-shadow: inset 0px 0px 5px rgba(255, 255, 255, 0.25);
+
+    border-radius: 10px;
+}
+
+.kard_vody {
+    height: 100%;
+    width: 100%;
+
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px;
+    gap: 5px;
+
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(152.85deg, rgba(58, 129, 191, 0.08) 0%, rgba(65, 48, 90, 0.03) 100%);
+    box-shadow: inset 0px 0px 5px rgba(255, 255, 255, 0.25);
+
+    border-radius: 10px;
+
+    font-size: 13px;
+}
+
+.kard_name {
+    width: 100%;
+    font-size: 18px;
+    color: white;
+    padding: 2px 5px 2px 5px;
+    box-sizing: border-box;
+}
+
+.kard_name > h1 {
+    overflow-wrap: break-word;
+    text-align: left;
+    inline-size: 170px;
+    line-height: 1;
+    margin: 0;
+}
+
+.kard_price{
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2px 5px 2px 5px;
+
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), linear-gradient(152.85deg, rgba(58, 129, 191, 0.08) 0%, rgba(65, 48, 90, 0.03) 100%);
+    box-shadow: inset 0px 0px 5px rgba(255, 255, 255, 0.25);
+
+    border-radius: 10px;
+;
+}
+
+.kard_day {
+    width: 100%;
+    position: center;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex
+}
+
+.kard_time {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex
+}
+
+.kard_adress {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex
+}
+
+.kard_adress > h3 {
+    overflow-wrap: break-word;
+    text-align: left;
+    inline-size: 140px;
+    line-height: 1;
+}
+
+h4, h3 {
+    margin: 0;
+    color: white;
+}
+
+.icon {
+    height: 22px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.true {
+    height: 30px;
+}
+.false {
+    height: 30px;
+    opacity: 30%;
+}
+h1 {
+    font-size: 17px;
+}
+h3 {
+    font-size: 14px;
+}
+h4 {
+    font-size: 13px;
+}
+h5 {
+    font-size: 10px;
+}
+
+.img_teatros {
+    max-width: 380px;
+}
+.div_coso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <property name="buildName" value="haynoche-0.0.1-SNAPSHOT.jar" />
+    <copy todir="/Users/landau/Documents/Final/Hay-Noche/MVP/HayNoche-Backend_v2.0 [Sweet Berry]/PepeAppCompleta/target/aws-build/" overwrite="false">
+      <fileset file="/Users/landau/Documents/Final/Hay-Noche/MVP/HayNoche-Backend_v2.0 [Sweet Berry]/PepeAppCompleta/target/haynoche-0.0.1-SNAPSHOT.jar" />
+      <fileset dir="./aws" />
+    </copy>
+    <replace file="/Users/landau/Documents/Final/Hay-Noche/MVP/HayNoche-Backend_v2.0 [Sweet Berry]/PepeAppCompleta/target/aws-build/Procfile" value="${buildName}" token="@jarname@" />
+    <zip basedir="/Users/landau/Documents/Final/Hay-Noche/MVP/HayNoche-Backend_v2.0 [Sweet Berry]/PepeAppCompleta/target/aws-build" destfile="/Users/landau/Documents/Final/Hay-Noche/MVP/HayNoche-Backend_v2.0 [Sweet Berry]/PepeAppCompleta/target/aws-build/app-to-deploy.jar" compress="false" />
+  </target>
+</project>
