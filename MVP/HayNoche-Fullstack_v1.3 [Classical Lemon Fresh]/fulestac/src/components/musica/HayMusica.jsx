@@ -11,7 +11,7 @@ function HayMusica() {
     const fetchMusicaProfile = () => {
         console.log("respondo");
         axios
-            .get('http://10.9.100.88:5000/api/musica') // con localhost no le gusta andar
+            .get('http://Deployme-env.eba-9rppbtpf.us-east-1.elasticbeanstalk.com:5000/api/musica') // con localhost no le gusta andar
             .then(resp => {
                 setMusicaProfile(resp.data); // se carga la data
             });

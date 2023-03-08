@@ -8,19 +8,21 @@ Here's we have several versions of our web application `Hay Noche`. We commited 
 
 ![](https://blog.crisp.se/wp-content/uploads/2016/01/Making-sense-of-MVP-.jpg)
 
-
 ---
 ## File Description
 
-
+- `Development Phase:`
 > #### Backend
-> - *HayNoche-Backend_v1:* This was our first version with functionalities for "BarRes" & "Promociones" and both being entities and tables are created based on their attributes.
+> - **HayNoche-Backend_v1:** This was our first version with functionalities for "BarRes" & "Promociones" and both being entities and tables are created based on their attributes.
 >
 >
-> - *HayNoche-Backend_v1.1:* Same functionalities as the one before but we handled some attributes with the use of `enum`.
+> - **HayNoche-Backend_v1.1:** Same functionalities as the one before but we handled some attributes with the use of `enum`.
 >
 >
-> - *HayNoche-Backend_v1.2:* Same functionalities, but here we added yet more attributes, relations and handled better the connections between the backend to the local database or AWS RDS plus the access from our frontend to our app.
+> - **HayNoche-Backend_v1.2:** Same functionalities, but here we added yet more attributes, relations and handled better the connections between the backend to the local database or AWS RDS plus the access from our frontend to our app.
+>
+>
+> - **HayNoche-Backend_v2.0 [Sweet Berry]:** This is the latest version of our backend application, here added the "Teatro" entity and it's functionalities
 
 > #### Frontend
 > - **Hay-Noche_Fullstack_v1 :** This was the first version of our frontend application, a skeleton of what we wanted the app to look and function.
@@ -30,6 +32,9 @@ Here's we have several versions of our web application `Hay Noche`. We commited 
 >
 >
 > - **HayNoche-Fullstack_v1.1 [Hot Body]:** This was our second version, with a more organized structure, folders are handled in order to mantain a clean look. Very rough draft of what the app actually should look like.
+>
+>
+> - **HayNoche-Fullstack_v1.2 [Cherry Bloom]:** This version can populate it's components with our databases tables by the usage of axios. Axios allows the frontend to contact and read all the data stored in AWS RDS through our backend API (or localhost for development matters). App is currently under plastic surgery and it is looking quite good.
 
 ---
 ## License

@@ -9,11 +9,12 @@ Here's our latest version of our web application `Hay Noche`. Here we present yo
 ---
 ## File Description
 
+- `MVP`
 > #### Backend
-> **HayNoche-Backend_v2.0 [Sweet Berry]:** This is the latest version of our backend application, here added the "Teatro" entity and it's functionalities
+> - **HayNoche-Backend_v2.2 [Acid Rain]:** In our latest version "Musica" was added, with it's respective repository, service, service implementation and all of previous properties as seen in "BarRes" and "Teatros". It also has corresponding ports in order for the frontend to access it.
 
 > #### Frontend
-> **HayNoche-Fullstack_v1.2 [Cherry Bloom]:** This version can populate it's components with our databases tables by the usage of axios. Axios allows the frontend to contact and read all the data stored in AWS RDS through our backend API (or localhost for development matters). App is currently under plastic surgery and it is looking quite good.
+> - **HayNoche-Fullstack_v1.3 [Classical Lemon Fresh]:** Version was updated regarding CSS and aiming to improve user experience. Populated directly from our db in AWS RDS.
 
 > #### Web Scraping
 > **Instagram_Bot:** Script automates the process of downloading posts pictures from Instagram accounts. It is capable of accessing an account, navigating to a specific profile, and downloading all, or a specified number of, posts pictures.

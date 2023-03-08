@@ -10,7 +10,7 @@ function HayNoche() {
     const fetchBarresProfile = () => {
         console.log("respondo");
         axios
-            .get('http://localhost:5000/api/barres') // con localhost no le gusta andar
+            .get('http://Deployme-env.eba-9rppbtpf.us-east-1.elasticbeanstalk.com:5000/api/barres') // con localhost no le gusta andar
             .then(resp => {
                 setBarresProfile(resp.data.content); // se carga la data
             });
